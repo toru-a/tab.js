@@ -10,6 +10,7 @@
   //初期化
   const init = () => {
     $content[0].style.display = 'block';
+    $nav[0].classList.add(ACTIVE_CLASS);
   };
   init();
 
