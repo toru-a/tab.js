@@ -8,7 +8,7 @@
 }
 .tab-nav-item {
   background: #000;
-  color: #fff;  
+  color: #fff;
   padding: 10px 20px;
   text-decoration: none;
 }
@@ -25,7 +25,44 @@
 }
 .tab-contents-item {
   display: none;
+ 
 }
+.public{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px; 
+}
+
+.main{
+  display: block;
+  color: #fff;
+  background-color: gray;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 50px;
+  text-align: center;
+}
+.toru-a{
+  display: block;
+  background-color: gray;
+  border: 1px solid #fff;
+  border-radius: 5px 5px 0 0;
+  padding: 5px;
+  
+}
+.viewcode{
+  color: #00f;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-color: #111111;
+  border: 1px solid #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 5px;
+}
+
+
 .text1 {
   text-align: center ;
   font-weight:bold;
@@ -35,10 +72,15 @@
   text-align: center ;
 }
 
-button {
+.rink {
   background: #008000;
   color: #fff;
   border-radius: 5px;
-  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
   margin: auto;
+  display: block;
+  width: 200px;
+  padding: 5px;
 }
