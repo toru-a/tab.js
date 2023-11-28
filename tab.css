@@ -6,6 +6,11 @@
 .tab-nav {
   display: flex;
 }
+
+.tab-nav-item:hover{
+  background: #111111;
+}
+
 .tab-nav-item {
   background: #000;
   color: #fff;
@@ -13,19 +18,12 @@
   text-decoration: none;
 }
 .tab-nav-item.is-active {
-  background: #000;
+  background: #111111;
   color: #fff;
   border-bottom: 1px solid #fd7e00;
 }
 
-.tab-nav-item:hover {
-  background:#111111;
-}
 
-.is-active:hover{
-  background: #111111;
-
-}
 .tab-contents {
   background: #111111;
   color: #fff;
