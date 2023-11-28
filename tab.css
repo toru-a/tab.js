@@ -17,6 +17,15 @@
   color: #fff;
   border-bottom: 1px solid #fd7e00;
 }
+
+.tab-nav-item:hover {
+  background:#111111;
+}
+
+.is-active:hover{
+  background: #111111;
+
+}
 .tab-contents {
   background: #111111;
   color: #fff;
